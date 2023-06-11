@@ -4,7 +4,6 @@ import useAuth from "../../hooks/useAuth";
 
 
 import axios from "axios";
-import CreateMyModel from "../../components/CreateMyModelForm";
 
 const HomePage = () => {
   // The "user" value from this Hook contains the decoded logged in user information (username, first name, id)
@@ -30,14 +29,8 @@ const HomePage = () => {
   }, [token]);
   return (
     <div className="container">
-      <h1>Home Page for {user.username}!</h1>
-      {cars &&
-        cars.map((car) => (
-          <p key={car.id}>
-            {car.year} {car.model} {car.make}
-          </p>
-        ))}
-        <CreateMyModel />
+      <h1 className="intro">Michaela Meissner's Portfolio</h1>
+      <h2>Software Developer</h2>
     </div>
   );
 };
