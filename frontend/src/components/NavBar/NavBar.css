@@ -1,7 +1,15 @@
 ul {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: flex-start; */
+  gap: 1rem;
   list-style-type: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  align-items: right;
 }
 
 li {
@@ -9,10 +17,10 @@ li {
 }
 
 .navBar {
-  background: steelblue;
+  background: black;
   box-shadow: 4px 2px 5px gray;
   color: white;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   padding: 1.5rem 2rem;
 }
 
@@ -24,8 +32,8 @@ li {
 }
 
 .navBar button:hover {
-  background: white;
-  color: steelblue;
+  background: silver;
+  color: black;
   cursor: pointer;
 }
 

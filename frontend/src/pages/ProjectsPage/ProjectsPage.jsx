@@ -6,17 +6,24 @@ const ProjectsPage = () => {
 
 
     return ( 
-        <div className='container'>
-            <h1>In Progress</h1>
-            <h1>Please come back soon</h1><br></br>
-            <div>
-                <h3>Here's a sneak peak</h3>
-                <a href="https://github.com/Mmeissner37/Capstone">
-                <img src="C:\Users\mpmei\devCodeCamp_all\Capstone_RestAPI\PawrentHelper2.png" height='100px' width='75px' alt='capstone image' />
-                </a>
+        <div className='projects-page'>
+            <div className='container'>
+                <h1>Currently Under Construction</h1>
+                <h1>Please come back soon</h1><br></br>
+                <div className='capstone'>
+                    <h3>Here's a sneak peak</h3>
+                    <a href="https://github.com/Mmeissner37/Capstone">
+                    <img src="./././assets/PawrentHelper2.png" height='100px' width='75px' alt='capstone teaser' />
+                    </a>
+                </div><br></br>
+                <div className='music-library'>
+                    <h3>And another</h3>
+                    <a href="">
+                        <img src="" height='100px' width='75px' alt='music library thumbnail' />
+                    </a>
+                </div>
             </div>
         </div>
-
      );
 }
  
