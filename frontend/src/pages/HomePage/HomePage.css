@@ -4,9 +4,10 @@
 
 .home-page {
     background-image: url("C:\Users\mpmei\Downloads\5651980.jpg");
+    /* background-image: radial-gradient(black,silver); */
     background-size: 100%;
     background-repeat: repeat;
-    padding-bottom: 50rem;
+    /* padding-bottom: 50rem; */
     color: black;
 }
 
@@ -26,5 +27,9 @@
 
 .header-home {
     margin-top: 2rem;
+    padding-bottom: 1rem;
 }
-   
+
+.profile-image {
+    border-radius: 15px;
+}

@@ -21,7 +21,7 @@ const ProjectsPage = () => {
                     </div><br></br>
                     <div className='music-library'>
                         <a href="https://github.com/Mmeissner37/Music_Library_React">
-                            <img src="" height='100px' width='75px' alt='music library thumbnail' />
+                            <img src="./././assets/Mewsic-Library2.png" height='100px' width='75px' alt='music library thumbnail' />
                         </a>
                         <h3>One More</h3>
                     </div>

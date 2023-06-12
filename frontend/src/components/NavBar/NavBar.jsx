@@ -13,17 +13,20 @@ const Navbar = () => {
 
   return (
     <div className="navBar">
-      <div>
-        <ul className="brand">
+      {/* <ul>
+        <li className="brand">
           <Link to="/" style={{ textDecoration: "none", color: "white" }}>
             <b>Portfolio</b>
           </Link>
-        </ul>
+        </li> */} 
         <div className="buttons">
-          <ul><button onClick={() => navigate("/")}>Home</button></ul>
-          <ul><button onClick={() => navigate('/projects')}>Projects</button></ul>
+          {/* <li> */}
+            <button onClick={() => navigate("/")}>Home</button>
+            <button onClick={() => navigate('/aboutme')}>My Journey</button>
+            <button onClick={() => navigate('/projects')}>Projects</button>
+          {/* </li> */}
         </div>
-      </div>
+        {/* </ul> */}
     </div>
   );
 };
