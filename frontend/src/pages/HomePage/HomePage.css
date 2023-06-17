@@ -3,11 +3,11 @@
 }
 
 .home-page {
-    background-image: url("C:\Users\mpmei\Downloads\5651980.jpg");
+    background-image: url("C:\Users\mpmei\devCodeCamp_all\5651980.jpg");
     /* background-image: radial-gradient(black,silver); */
     background-size: 100%;
     background-repeat: repeat;
-    /* padding-bottom: 50rem; */
+    padding-bottom: 5rem;
     color: black;
 }
 
@@ -17,13 +17,13 @@
     color: white;
     margin-top: 1rem;
     padding: 0.4rem 0.5rem;
-  }
+}
   
-  .home-page button:hover {
+.home-page button:hover {
     background: silver;
     color: black;
     cursor: pointer;
-  }
+}
 
 .header-home {
     margin-top: 2rem;
@@ -31,5 +31,20 @@
 }
 
 .profile-image {
-    border-radius: 15px;
+    border-radius: 1.2rem;
+    /* box-shadow: 4px 2px 5px rgb(139, 223, 247); */
+    box-shadow: 4px 4px 5px black;
+}
+
+.icons {
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.icons:hover {
+    size-adjust: 1.2rem;
 }

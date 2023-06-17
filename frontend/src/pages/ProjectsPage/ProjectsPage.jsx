@@ -1,6 +1,9 @@
 
 import './ProjectsPage.css'
 
+import MewsicLibrary from '../../components/MewsicLibrary';
+import PawrentHelper from '../../components/PawrentHelper';
+import YouTubeClone from '../../components/YouTubeClone';
 
 const ProjectsPage = () => {
 
@@ -12,18 +15,15 @@ const ProjectsPage = () => {
                     <h1>Currently Under Construction</h1>
                     <h1>Please come back soon</h1><br></br>
                 </div>
-                <div className='project-grid'>
-                    <div className='capstone'>
-                        <a href="https://github.com/Mmeissner37/Capstone">
-                        <img src="./././assets/PawrentHelper2.png" height='100px' width='75px' alt='capstone teaser' />
-                        </a>
-                        <h3>Here's a sneak peak!</h3>
-                    </div><br></br>
-                    <div className='music-library'>
-                        <a href="https://github.com/Mmeissner37/Music_Library_React">
-                            <img src="./././assets/Mewsic-Library2.png" height='100px' width='75px' alt='music library thumbnail' />
-                        </a>
-                        <h3>One More</h3>
+                <div className='grid-container'>
+                    <div className='grid-item'>
+                        <PawrentHelper />
+                    </div>
+                    <div className='grid-item'>
+                        <MewsicLibrary />
+                    </div>
+                    <div className='grid-item'>
+                        <YouTubeClone />
                     </div>
                 </div>
             </div>
