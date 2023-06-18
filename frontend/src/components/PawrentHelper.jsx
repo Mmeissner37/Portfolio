@@ -7,7 +7,7 @@ const PawrentHelper = () => {
             <a href="https://github.com/Mmeissner37/Capstone">
                 <img src={Pawrent} height='175px' width='275px' alt='capstone teaser' />
             </a>
-            <h3>Pawrent Helper</h3>
+            <h3 className='proj-header'>Pawrent Helper</h3>
             <div className='description'>
                 <ul>Languages: Python, JavaScript, CSS <br></br>
                 Technologies: Django, DjangoRestFramework, RESTful APIs, React,js</ul>

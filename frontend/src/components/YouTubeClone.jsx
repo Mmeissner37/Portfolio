@@ -6,7 +6,7 @@ const YouTubeClone = () => {
             <a href="">
                 <img src={YTClone} height='175px' width='275px' alt='YouTubeClone' />
             </a>
-            <h3>YouTube Clone</h3>
+            <h3 className='proj-header'>YouTube Clone</h3>
             <div className='description'>
                 <ul>Languages: Python, JavaScript, CSS <br></br>
                 Technologies: Django, DjangoRestFramework, RESTful APIs, React,js</ul>

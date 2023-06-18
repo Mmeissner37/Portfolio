@@ -15,18 +15,19 @@
     font-family: "Poppins", sans-serif;
 }
 
-.contact-button {
+.form button {
     background: black;
     border: 2px solid white;
     color: white;
     padding: 0.4rem 0.5rem;
 }
 
-.contact-button:hover {
-    background: white;
+.form button:hover {
+    background: rgb(84, 161, 103);
     color: black;
     cursor: pointer;
 }
+  
 
 .home-page button {
     background: black;

@@ -37,9 +37,7 @@ const ContactMePage = () => {
                     <label className='contact-form'>Email Address: {' '}
                         <input type='text' name='email' value={formData.email} onChange={handleInputChange}/><br></br>
                     </label>
-                    <div className='contact-button'>
-                        <button>Submit</button>
-                    </div>
+                    <button>Submit</button>
                 </form>
             </div>
         </div>

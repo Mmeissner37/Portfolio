@@ -12,20 +12,6 @@
     color: black;
 }
 
-.home-page button {
-    background: black;
-    border: 2px solid white;
-    color: white;
-    margin-top: 1rem;
-    padding: 0.4rem 0.5rem;
-}
-  
-.home-page button:hover {
-    background: silver;
-    color: black;
-    cursor: pointer;
-}
-
 .header-home {
     margin-top: 2rem;
     padding-bottom: 1rem;

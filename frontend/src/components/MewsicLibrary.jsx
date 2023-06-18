@@ -6,7 +6,7 @@ const MewsicLibrary = () => {
             <a href="https://github.com/Mmeissner37/Music_Library_React">
                 <img src={Mewsic} height='175px' width='275px' alt='music library thumbnail' />
             </a>
-            <h3>Mewsic Library</h3>
+            <h3 className='proj-header'>Mewsic Library</h3>
             <div className='description'>
             <ul>Languages: Python, JavaScript, CSS <br></br>
             Technologies: Django, DjangoRestFramework, RESTful APIs, React.js</ul>
