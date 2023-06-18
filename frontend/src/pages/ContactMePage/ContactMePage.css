@@ -1,3 +1,7 @@
+.contactpage {
+    background-image: radial-gradient(black,silver);
+}
+
 .contact {
     align-items: center;
     max-width: 600px;
