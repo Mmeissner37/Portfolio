@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "./NavBar.css";
 
 // import { useContext } from "react";
@@ -13,20 +13,12 @@ const Navbar = () => {
 
   return (
     <div className="navBar">
-      {/* <ul>
-        <li className="brand">
-          <Link to="/" style={{ textDecoration: "none", color: "white" }}>
-            <b>Portfolio</b>
-          </Link>
-        </li> */} 
         <div className="buttons">
-          {/* <li> */}
             <button onClick={() => navigate("/")}>Home</button>
             <button onClick={() => navigate('/aboutme')}>My Journey</button>
             <button onClick={() => navigate('/projects')}>Projects</button>
-          {/* </li> */}
+            <button onClick={() => navigate('/contact')}>Contact Me</button>
         </div>
-        {/* </ul> */}
     </div>
   );
 };

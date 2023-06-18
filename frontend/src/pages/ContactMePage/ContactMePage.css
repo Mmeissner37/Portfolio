@@ -1,0 +1,20 @@
+.contact {
+    align-items: center;
+    max-width: 600px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+.contact-button {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 0.4rem 0.5rem;
+}
+
+.contact-button:hover {
+    background: silver;
+    color: black;
+    cursor: pointer;
+}
+  
