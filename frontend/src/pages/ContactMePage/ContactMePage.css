@@ -1,13 +1,17 @@
 .contact-page {
     background-image: radial-gradient(white, rgb(45, 124, 157));
-}
-
-.contact {
     align-items: center;
-    max-width: 600px;
     padding-bottom: 4px;
     padding-top: 4px;
 }
+
+.contactcontainer {
+    margin: 0 auto;
+    max-width: 500px;
+    /* overflow: auto; */
+    text-align: center;
+}
+  
 
 .header-contact {
     margin-top: 2rem;
@@ -15,49 +19,47 @@
     font-family: "Poppins", sans-serif;
 }
 
-.form button {
+.contact-page form button {
     background: black;
     border: 2px solid white;
     color: white;
     padding: 0.4rem 0.5rem;
+    margin: 1rem 0;
 }
 
-.form button:hover {
-    background: rgb(84, 161, 103);
+.contact-page form button:hover {
+    background: white;
     color: black;
+    border: 2px solid black;
     cursor: pointer;
 }
   
-
-.home-page button {
-    background: black;
-    border: 2px solid white;
-    color: white;
-    margin-top: 1rem;
-    padding: 0.4rem 0.5rem;
-}
-  
-.home-page button:hover {
-    background: silver;
-    color: black;
-    cursor: pointer;
+.contact-page form .message {
+    height: 150px;
+    width: 100%;
+    text-align: left;
+    vertical-align: top;
 }
 
+.contact-page textarea {
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    font-family: 'Poppins';
+    font-size: 15px;
+    border-radius: 4px;
+    padding: 12px 12px;
+    resize: none;
+}
 
-button {
-    background-color: transparent;
-    border: 2px solid steelblue;
-    border-radius: 15px;
-    color: steelblue;
-    font-size: 1rem;
-    font-family: serif;
-    max-width: 100px;
-    padding: 0.5rem 0.5rem;
-  }
-  
-  button:hover {
-    cursor: pointer;
-    color: white;
-    background-color: steelblue;
-  }
+.form input {
+    display: block;
+    width: 100%;
+    height: 35px;
+    margin: 5px;
+    padding: 3px 7px;
+    font-size: 17px;
+    border-radius: 4px;
+}
   

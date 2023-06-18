@@ -28,7 +28,7 @@ ul {
 }
 
 .navBar button:hover {
-  background: silver;
+  background: white;
   color: black;
   cursor: pointer;
 }
