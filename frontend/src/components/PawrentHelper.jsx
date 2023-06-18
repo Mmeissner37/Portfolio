@@ -1,4 +1,5 @@
 import Pawrent from '../assets/PawrentHelper2.png'
+import '../pages/ProjectsPage/ProjectsPage.css';
 
 const PawrentHelper = () => {
     return ( 
@@ -8,8 +9,8 @@ const PawrentHelper = () => {
             </a>
             <h3>Pawrent Helper</h3>
             <div className='description'>
-                <ul text-align='left'>Languages: Python, JavaScript, CSS</ul>
-                <ul>Technologies: Django, DjangoRestFramework, RESTful APIs, React,js</ul>
+                <ul>Languages: Python, JavaScript, CSS <br></br>
+                Technologies: Django, DjangoRestFramework, RESTful APIs, React,js</ul>
             </div>
         </div>
      );

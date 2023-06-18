@@ -8,8 +8,8 @@ const MewsicLibrary = () => {
             </a>
             <h3>Mewsic Library</h3>
             <div className='description'>
-            <ul>Languages: Python, JavaScript, CSS</ul>
-            <ul>Technologies: Django, DjangoRestFramework, RESTful APIs, React.js</ul>
+            <ul>Languages: Python, JavaScript, CSS <br></br>
+            Technologies: Django, DjangoRestFramework, RESTful APIs, React.js</ul>
             </div>
         </div>
      );

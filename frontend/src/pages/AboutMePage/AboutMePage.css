@@ -8,12 +8,13 @@
 
   .aboutme-page {
     /* background-image: url("https://media.istockphoto.com/id/579157120/vector/construction-skyline-scene-blue-background.jpg?s=2048x2048&w=is&k=20&c=HjUozD3qHq15pMpMAoK14EMY0LhcLLcDL7ieKFnmvs8="); */
-    background-color: linear-gradient(to right black),silver;
+    background-image: radial-gradient(white, rgb(45, 124, 157));
     width: 100%;
     height: 100%; 
     padding-bottom: 25rem;
     background-size: 100%;
     background-repeat: no-repeat;
+    font-family: "Poppins", sans-serif;
   }
 
   .journey {

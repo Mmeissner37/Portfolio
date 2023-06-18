@@ -24,7 +24,7 @@ const HomePage = () => {
                         </ul>
                     </div>
                     <div className="link-icon">
-                        <ul text-decoration="none">
+                        <ul>
                             <a href="https://www.linkedin.com/in/michaela-meissner-b82b6493/">
                                 <img className="icons" src={Linked} height='25px' width='25px' alt='linkedin icon'/>
                             </a>

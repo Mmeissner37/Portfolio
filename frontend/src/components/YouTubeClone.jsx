@@ -8,10 +8,8 @@ const YouTubeClone = () => {
             </a>
             <h3>YouTube Clone</h3>
             <div className='description'>
-                {/* <h3>Description: Web Application for pet owners to create pet profiles, track current medications, and schedule appointments with a vet clinic</h3>
-                <h3>The associated vet clinic has access to the schedule and appointments, and can grant guest access to other veterinary professionals</h3> */}
-                <ul>Languages: Python, JavaScript, CSS</ul>
-                <ul>Technologies: Django, DjangoRestFramework, RESTful APIs, React,js</ul>
+                <ul>Languages: Python, JavaScript, CSS <br></br>
+                Technologies: Django, DjangoRestFramework, RESTful APIs, React,js</ul>
             </div>
     </div>
      );

@@ -1,12 +1,13 @@
 .intro {
-    font-family: cursive;
+    font-family: "Poppins", sans-serif;
 }
 
 .home-page {
-    background-image: url("C:\Users\mpmei\devCodeCamp_all\5651980.jpg");
-    /* background-image: radial-gradient(black,silver); */
-    background-size: 100%;
-    background-repeat: repeat;
+    /* background-image: url("C:\Users\mpmei\devCodeCamp_all\5651980.jpg"); */
+    background-image: radial-gradient(white, rgb(45, 124, 157));
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
     padding-bottom: 5rem;
     color: black;
 }
