@@ -17,7 +17,7 @@ p {
   font-size: 20px;
 }
 
-/* button {
+button {
   background-color: transparent;
   border: 2px solid steelblue;
   border-radius: 15px;
@@ -26,13 +26,13 @@ p {
   font-family: serif;
   max-width: 100px;
   padding: 0.5rem 0.5rem;
-} */
+}
 
-/* button:hover {
+button:hover {
   cursor: pointer;
   color: white;
   background-color: steelblue;
-} */
+}
 
 .container {
   margin: 0 auto;

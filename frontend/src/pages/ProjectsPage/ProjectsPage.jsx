@@ -27,10 +27,10 @@ const ProjectsPage = () => {
                         <YouTubeClone />
                     </div>
                     <div className='grid-item'>
-                        <RPSLS />
+                        <RobotvsDinosaur />
                     </div>
                     <div className='grid-item'>
-                        <RobotvsDinosaur />
+                        <RPSLS />
                     </div>
                 </div>
             </div>

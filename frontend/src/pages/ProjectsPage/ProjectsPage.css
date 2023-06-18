@@ -23,15 +23,14 @@
 .grid-container {
     display: grid;
     display: inline-grid;
-    grid-template-columns: auto auto;
-    gap: 1.5rem;
+    grid-template-columns: auto auto auto;
+    gap: 4rem 3rem;
 }
 
 .description {
     border: solid 2px silver;
     background-color: black;
     color: white;
-    max-width: 400px;
     text-align: left;
     padding: 0.5rem 0.5rem;
     font-size: smaller;
