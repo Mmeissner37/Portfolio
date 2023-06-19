@@ -5,9 +5,14 @@ const RPSLS = () => {
   return (
     <div className="OOP">
       <a href="https://github.com/Mmeissner37/Rock-Paper-Scissor-Lizard-Spock">
-        <img src={Image} height="175px" width="275px" alt="capstone teaser" />
+        <img src={Image} height="275px" width="425px" alt="capstone teaser" />
       </a>
       <h3 className="proj-header">Rock, Paper, Scissor, Lizard, Spock</h3>
+      <div className="description">
+        <ul>
+          Interactive Python that allows a user to play against another user or a computer in a rivoting game of The Big Bang's Version of Rock-Paper-Scissors
+        </ul>
+      </div>
       <div className="description">
         <ul>
           Language: Python <br></br>

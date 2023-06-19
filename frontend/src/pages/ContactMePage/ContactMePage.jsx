@@ -27,7 +27,7 @@ const ContactMePage = () => {
     return ( 
         <div className='contact-page'>
             <div className="contactcontainer">
-                <h2 className='header-contact'>Contact Me</h2><br></br>
+                <h1 className='header-contact'>Contact Me</h1><br></br>
                 <form className="form" onSubmit={handleSubmit}>
                     <label>Name: {' '}
                         <input type='text' name='name' value={formData.name} onChange={handleInputChange} /><br></br>

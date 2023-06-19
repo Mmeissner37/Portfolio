@@ -5,12 +5,18 @@ const PawrentHelper = () => {
     return ( 
         <div className='capstone'>
             <a href="https://github.com/Mmeissner37/Capstone">
-                <img src={Pawrent} height='175px' width='275px' alt='capstone teaser' />
+                <img src={Pawrent} height='275px' width='425px' alt='capstone teaser' />
             </a>
             <h3 className='proj-header'>Pawrent Helper</h3>
             <div className='description'>
-                <ul>Languages: Python, JavaScript, CSS <br></br>
-                Technologies: Django, DjangoRestFramework, RESTful APIs, React,js</ul>
+                <ul>
+                A web application for pet owners to create pet profiles, keep tract of medications, and schedule appointments
+                </ul>
+            </div>
+            <div className='description'>
+                <ul> 
+                Languages: Python, JavaScript, HTML, CSS <br></br>
+                Technologies: JWT, RESTful APIs, React,js, MySQL, Django, DjangoRestFramework, FullCalender.io</ul>
             </div>
         </div>
      );

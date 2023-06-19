@@ -4,26 +4,41 @@
     overflow: auto;
     text-align: left;
     padding-top: 1rem;
-  }
-
-  .journey-header {
-    text-align: center;
-    /* margin-top: 2rem; */
-    padding: 2rem;
-  }
-
-  .aboutme-page {
-    /* background-image: url("https://media.istockphoto.com/id/579157120/vector/construction-skyline-scene-blue-background.jpg?s=2048x2048&w=is&k=20&c=HjUozD3qHq15pMpMAoK14EMY0LhcLLcDL7ieKFnmvs8="); */
-    background-image: radial-gradient(white, rgb(45, 124, 157));
-    width: 100%;
-    height: 100%; 
-    padding-bottom: 25rem;
-    background-size: 100%;
-    background-repeat: no-repeat;
     font-family: inherit;
-  }
+}
 
-  .journey-content {
+.aboutme-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 4rem 3rem;
+    margin: 0 auto;
+    max-width: 800px;
+    overflow: auto;
+    justify-content: center;
+}
+
+.aboutme-page {
+  width: 100%;
+  height: 100%; 
+  padding-bottom: 2rem;
+  background-image: radial-gradient(white, rgb(45, 124, 157));
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.journey-header {
+  text-align: center;
+  margin: 2rem;
+}
+
+.journey-content {
     text-align: center;
     max-width: 800px;
+}
+
+  .quote {
+    text-align: center;
+    font-family: cursive;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
   }

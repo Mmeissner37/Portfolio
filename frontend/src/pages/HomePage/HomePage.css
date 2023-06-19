@@ -3,8 +3,7 @@
 }
 
 .home-page {
-    /* background-image: url("C:\Users\mpmei\devCodeCamp_all\5651980.jpg"); */
-    background-image: radial-gradient(white, rgb(45, 124, 157));
+    background-image: url("C:\Users\mpmei\devCodeCamp_all\5651980a.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -20,6 +19,7 @@
 .profile-image {
     border-radius: 1.2rem;
     box-shadow: 4px 4px 5px black;
+    opacity: 1;
 }
 
 .icons {
@@ -31,6 +31,6 @@
     gap: 10px;
 }
 
-.icons:hover {
-    size-adjust: 1.2rem;
+.git-icon:hover {
+    size-adjust: 5rem;
 }

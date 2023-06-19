@@ -6,8 +6,7 @@ const MewsicLibrary = () => {
       <a href="https://github.com/Mmeissner37/Music_Library_React">
         <img
           src={Mewsic}
-          height="175px"
-          width="275px"
+          height='275px' width='425px'
           alt="music library thumbnail"
         />
       </a>

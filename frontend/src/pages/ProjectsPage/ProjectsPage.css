@@ -1,5 +1,4 @@
 .projects-page {
-    background-image: url("https://media.istockphoto.com/id/579157120/vector/construction-skyline-scene-blue-background.jpg?s=2048x2048&w=is&k=20&c=HjUozD3qHq15pMpMAoK14EMY0LhcLLcDL7ieKFnmvs8=");
     background-image: radial-gradient(white, rgb(45, 124, 157));
     background-repeat: no-repeat;
     padding-bottom: 2rem;
@@ -23,7 +22,7 @@
 .grid-container {
     display: grid;
     display: inline-grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     gap: 4rem 3rem;
 }
 
@@ -31,15 +30,16 @@
     border: solid 2px silver;
     background-color: black;
     color: white;
-    text-align: left;
     padding: 0.5rem 0.5rem;
+    text-align: left;
     font-size: smaller;
+    margin-bottom: 0.25rem;
 }
 
 .container-description {
     text-align: left;
 }
 
-.youtube {
-    align-items: left;
+.youtube-description {
+    text-align: left;
 }
