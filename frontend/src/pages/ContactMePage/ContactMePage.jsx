@@ -16,7 +16,7 @@ const ContactMePage = () => {
 
     async function newContact() {
         try {
-            let response = await axios.post('', formData, {})
+            let response = await axios.post('http://127.0.0.1:8000/portfolio/contact/', formData, {})
             navigate('/')
         } catch (error) {
             console.log(error.response.data)
@@ -27,7 +27,7 @@ const ContactMePage = () => {
     return ( 
         <div className='contact-page'>
             <div className="contactcontainer">
-                <h1 className='header-contact'>Contact Me</h1><br></br>
+                <h1 className='contact-header'>Contact Me</h1><br></br>
                 <form className="form" onSubmit={handleSubmit}>
                     <label>Name: {' '}
                         <input type='text' name='name' value={formData.name} onChange={handleInputChange} /><br></br>

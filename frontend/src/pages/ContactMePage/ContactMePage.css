@@ -8,14 +8,14 @@
 .contactcontainer {
     margin: 0 auto;
     max-width: 500px;
-    /* overflow: auto; */
     text-align: center;
+    font-family: inherit;
 }
 
-.header-contact {
-    margin-top: 2rem;
-    padding-bottom: 1rem;
-    font-family: "Poppins", sans-serif;
+.contact-header {
+    margin: 3rem;
+    text-align: center;
+    font-family: inherit;
 }
 
 .contact-page form button {

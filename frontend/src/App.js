@@ -4,8 +4,6 @@ import "./App.css";
 
 // Pages Imports
 import HomePage from "./pages/HomePage/HomePage";
-import LoginPage from "./pages/LoginPage/LoginPage";
-import RegisterPage from "./pages/RegisterPage/RegisterPage";
 import ProjectsPage from './pages/ProjectsPage/ProjectsPage';
 import AboutMePage from "./pages/AboutMePage/AboutMePage";
 import ContactMePage from "./pages/ContactMePage/ContactMePage";
@@ -23,10 +21,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />}/>
-        <Route path="/register" element={<RegisterPage />} />
-        <Route path="/login" element={<LoginPage />} />
         <Route path="/projects" element={<ProjectsPage />} />
-        <Route path="/aboutme" element={<AboutMePage />} />
+        <Route path="/myjourney" element={<AboutMePage />} />
         <Route path="/contact" element={<ContactMePage />} />
       </Routes>
       <Footer />
