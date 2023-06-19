@@ -10,13 +10,11 @@ const RobotvsDinosaur = () => {
             </a>
             <h3 className='proj-header'>Robot Vs Dinosaur</h3>
             <div className='description'>
-                <ul>
                 Interactive Python game where a Robot and Dinosaur fight to the death!
-                </ul>
             </div>
             <div className='description'>
-                <ul>Language: Python <br></br>
-                Technology: Object-Oriented Programing</ul>
+                Language: Python <br></br>
+                Technology: Object-Oriented Programing
             </div>
         </div>
      );

@@ -9,15 +9,11 @@ const RPSLS = () => {
       </a>
       <h3 className="proj-header">Rock, Paper, Scissor, Lizard, Spock</h3>
       <div className="description">
-        <ul>
           Interactive Python that allows a user to play against another user or a computer in a rivoting game of The Big Bang's Version of Rock-Paper-Scissors
-        </ul>
       </div>
       <div className="description">
-        <ul>
           Language: Python <br></br>
           Technology: Object-Oriented Programing{" "}
-        </ul>
       </div>
     </div>
   );

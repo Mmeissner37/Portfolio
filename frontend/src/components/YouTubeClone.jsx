@@ -8,13 +8,11 @@ const YouTubeClone = () => {
             </a>
             <h3 className='proj-header'>YouTube Clone</h3>
             <div className='description'>
-                <ul>
                 YouTube Clone that utilizes YouTube's third-party API
-                </ul>
             </div>
             <div className='description'>
-                <ul>Languages: Python, JavaScript, CSS <br></br>
-                Technologies: Django, DjangoRestFramework, RESTful APIs, React,js</ul>
+                <ul>Languages: Python, JavaScript, HTML, CSS <br></br>
+                Technologies: React-Router, Axios, Django, DjangoRestFramework, RESTful APIs, React,js</ul>
             </div>
     </div>
      );
