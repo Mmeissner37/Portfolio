@@ -31,6 +31,14 @@
     gap: 10px;
 }
 
+.icons::before {
+    position: absolute;
+}
+
 .git-icon:hover {
-    size-adjust: 5rem;
+    transform: scale(1.2);
+}
+
+.link-icon:hover {
+    transform: scale(1.2)
 }

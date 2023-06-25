@@ -15,6 +15,7 @@ const ContactMePage = () => {
     const navigate = useNavigate();
 
     async function newContact() {
+        debugger
         try {
             let response = await axios.post('http://127.0.0.1:8000/portfolio/contact/', formData, {})
             navigate('/')
@@ -30,10 +31,10 @@ const ContactMePage = () => {
                 <h1 className='contact-header'>Contact Me</h1><br></br>
                 <form className="form" onSubmit={handleSubmit}>
                     <label>Name: {' '}
-                        <input type='text' name='name' value={formData.name} onChange={handleInputChange} /><br></br>
+                        <input type='text' name='name' placeholder='First & Last Name' value={formData.name} onChange={handleInputChange} /><br></br>
                     </label>
                     <label>Company (optional): {' '}
-                        <input type='text' name='company' value={formData.company} onChange={handleInputChange} /><br></br>
+                        <input type='text' name='company' placeholder ='N/A or Company Name' value={formData.company} onChange={handleInputChange} /><br></br>
                     </label>
                     <label>Email Address: {' '}
                         <input type='text' name='email' value={formData.email} onChange={handleInputChange}/><br></br>

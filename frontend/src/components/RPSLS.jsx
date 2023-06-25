@@ -4,9 +4,11 @@ import "../pages/ProjectsPage/ProjectsPage.css";
 const RPSLS = () => {
   return (
     <div className="OOP">
+      <div className="image-link">
       <a href="https://github.com/Mmeissner37/Rock-Paper-Scissor-Lizard-Spock">
         <img src={Image} height="275px" width="425px" alt="capstone teaser" />
       </a>
+      </div>
       <h3 className="proj-header">Rock, Paper, Scissor, Lizard, Spock</h3>
       <div className="description">
         Interactive Python game that allows a user to play against another user

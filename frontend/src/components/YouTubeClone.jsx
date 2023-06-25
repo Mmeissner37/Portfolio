@@ -3,9 +3,11 @@ import YTClone from '../assets/YTClone2.png'
 const YouTubeClone = () => {
     return ( 
         <div className='youtube'>
+            <div className='image-link'>
             <a href="https://github.com/Mmeissner37/YouTubeClone">
                 <img src={YTClone} height='275px' width='425px' alt='YouTubeClone' />
             </a>
+            </div>
             <h3 className='proj-header'>YouTube Clone</h3>
             <div className='description'>
                 YouTube Clone that utilizes YouTube's third-party API

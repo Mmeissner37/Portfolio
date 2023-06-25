@@ -4,9 +4,11 @@ import '../pages/ProjectsPage/ProjectsPage.css';
 const PawrentHelper = () => {
     return ( 
         <div className='capstone'>
+            <div className='image-link'>
             <a href="https://github.com/Mmeissner37/Capstone">
                 <img src={Pawrent} height='275px' width='425px' alt='capstone teaser' />
             </a>
+            </div>
             <h3 className='proj-header'>Pawrent Helper</h3>
             <div className='description'>
                 <ul>

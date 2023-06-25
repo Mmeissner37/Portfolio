@@ -33,15 +33,15 @@ const Journey = () => {
           (VTS(Dentistry)). There are just over 100 of us in the world! I have
           been published in professional journals, spoken at veterinary
           conferences, and achieved several certifications.<br></br>
-          <br></br>Then the world changed. I had to change with it and learn to adapt.<br></br>
+          <br></br>Then the world changed. I changed with it and learned to adapt.<br></br>
           <br></br>I started my software journey mid-2022 with YouTube videos
           and W3 Schools. I was hooked from my first print(“Hello World”).
           freeCodeCamp offered a great start to reactive web development, but I
           wanted a more in-depth approach. So, I enrolled with devCodeCamp and
-          started their Software Development Flex Bootcamp. The bootcamp offered
+          started their Software Development Flex Bootcamp. The 22-week bootcamp offered
           a guideline on what to learn while requiring the ability to self-study
           and problem solve on my own. Most nights and weekends were spent
-          working on projects and researching hurdles. The next 22 weeks were
+          working on projects and researching hurdles. The process was
           intense. Learning to code full-time while working full-time was a
           challenge I took on and don’t regret. <br></br>
           <br></br>
