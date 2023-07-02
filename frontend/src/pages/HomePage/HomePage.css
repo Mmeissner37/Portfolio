@@ -1,9 +1,10 @@
+
 .intro {
     font-family: "Poppins", sans-serif;
 }
 
 .home-page {
-    background-image: url("C:\Users\mpmei\devCodeCamp_all\5651980a.jpg");
+    background-image: url("../../assets/5651980a.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
