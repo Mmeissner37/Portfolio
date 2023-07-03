@@ -1,18 +1,14 @@
 FROM python:alpine3.18 
 
-
-WORKDIR /app 
-
-COPY requirements.txt ./
-
+WORKDIR /user/src/app 
 COPY ./portfolio ./portfolio 
-
-COPY . .
-
+COPY requirements.txt ./
 
 RUN pip install -r requirements.txt
 
+COPY . .
+EXPOSE 8000
 
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+# CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
 
 ##Use this for Dockerfile for DjangoRestFramework apps
