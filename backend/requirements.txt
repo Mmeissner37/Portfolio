@@ -1,0 +1,22 @@
+
+
+-i https://pypi.org/simple 
+
+
+asgiref==3.6.0; python_version >= '3.7'
+
+django-cors-headers==3.13.0
+
+django
+
+djangorestframework-simplejwt
+
+mysql-connector-python==8.0.31
+
+protobuf==3.20.1; python_version >= "3.7"
+
+pytz==2022.7
+
+sqlparse==0.4.3; python_version >= "3.5"
+
+tzdata==2022.7 
