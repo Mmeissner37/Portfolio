@@ -29,6 +29,7 @@ ul {
   background: white;
   color: black;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 .brand {

@@ -46,4 +46,6 @@
 
 .image-link:hover {
     transform: scale(1.2);
+    transition-delay: 0.25s;
+    transition-duration: 0.3s;
 }

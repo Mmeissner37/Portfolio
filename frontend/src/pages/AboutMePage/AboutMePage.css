@@ -21,8 +21,6 @@
   height: 100%; 
   padding-bottom: 2rem;
   background-image: radial-gradient(white, rgb(45, 124, 157));
-  background-size: 100%;
-  background-repeat: no-repeat;
 }
 
 .journey-header {

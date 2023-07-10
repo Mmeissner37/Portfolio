@@ -14,7 +14,7 @@ const YouTubeClone = () => {
             </div>
             <div className='description'>
                 <ul>Languages: Python, JavaScript, HTML, CSS <br></br>
-                Technologies: React-Router, Axios, Django, DjangoRestFramework, RESTful APIs, React,js</ul>
+                Technologies: React-Router, Axios, Django, DjangoRestFramework, RESTful APIs, React.js, Node</ul>
             </div>
     </div>
      );

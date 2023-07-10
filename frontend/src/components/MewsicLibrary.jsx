@@ -19,7 +19,7 @@ const MewsicLibrary = () => {
       </div>
       <div className="description">
         Languages: Python, JavaScript, CSS <br></br>
-        Technologies: Django, DjangoRestFramework, RESTful APIs, React.js
+        Technologies: Django, DjangoRestFramework, RESTful APIs, React.js, Node
       </div>
     </div>
   );
