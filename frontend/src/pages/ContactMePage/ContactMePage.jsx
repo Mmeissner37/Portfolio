@@ -17,13 +17,19 @@ const ContactMePage = () => {
     async function newContact() {
         debugger
         try {
-            let response = await axios.post('http://127.0.0.1:8000/portfolio/contact/', formData, {})
+            let response = await axios.post('44.202.128.85:8000/portfolio/contact/', formData, {})
             navigate('/')
         } catch (error) {
             console.log(error.response.data)
         }
     }
-
+//     try {
+//         let response = await axios.post('http://127.0.0.1:8000/portfolio/contact/', formData, {})
+//         navigate('/')
+//     } catch (error) {
+//         console.log(error.response.data)
+//     }
+// }
 
     return ( 
         <div className='contact-page'>

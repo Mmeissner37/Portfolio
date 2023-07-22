@@ -1,13 +1,8 @@
 version: "3.1"
 services: 
-  portfolio-frontend: 
-    # build: ./frontend 
-    image: mpmeissner/portfolio-frontend:2.1
-    ports: 
-      - 3000:3000
   portfolio-database: 
     # build: ./database
-    image: mpmeissner/portfolio-database:1.2
+    image: mpmeissner/portfolio-database:1.3
     ports: 
       - 3307:3306
     environment:
@@ -17,7 +12,7 @@ services:
       - db-data:/var/lib/mysql
   portfolio-backend: 
     # build: ./backend
-    image: mpmeissner/portfolio-backend:1.5
+    image: mpmeissner/portfolio-backend:1.7
     ports: 
       - 8000:8000 
     restart: always 
@@ -25,5 +20,13 @@ services:
       - "portfolio-database"
     command: >
       sh -c "python manage.py makemigrations && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+  portfolio-frontend: 
+    # build: ./frontend 
+    image: mpmeissner/portfolio-frontend:2.3
+    ports: 
+      - 3000:3000
+      - 443:443
+    depends_on:
+      - "portfolio-backend"
 volumes: 
   db-data: 
