@@ -4,12 +4,12 @@
 }
 
 .home-page {
-    background-image: url("../../assets/5651980a.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     padding-bottom: 5rem;
     color: black;
+    background-image: url("../../assets/5651980a.jpg");
 }
 
 .header-home {
@@ -21,6 +21,7 @@
     border-radius: 1.2rem;
     box-shadow: 4px 4px 5px black;
     opacity: 1;
+    opacity: 100%;
 }
 
 .icons {
