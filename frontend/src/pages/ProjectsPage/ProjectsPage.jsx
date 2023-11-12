@@ -5,6 +5,7 @@ import PawrentHelper from "../../components/PawrentHelper";
 import YouTubeClone from "../../components/YouTubeClone";
 import RPSLS from "../../components/RPSLS";
 import RobotvsDinosaur from "../../components/RobotvsDinosaur";
+import FrostedWhiskers from "../../components/FrostedWhiskers";
 
 
 const ProjectsPage = () => {
@@ -19,6 +20,9 @@ const ProjectsPage = () => {
           devCodeCamp. More will be added as I gain skill and experience.{" "}
         </p>
         <div className="grid-container">
+        <div className="grid-item">
+            <FrostedWhiskers />
+          </div>
           <div className="grid-item">
             <PawrentHelper />
           </div>

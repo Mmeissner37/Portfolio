@@ -5,7 +5,7 @@ const FrostedWhiskers = () => {
     return ( 
         <div className='catcafe'>
             <div className='image-link'>
-                <a href="">
+                <a href="https://frostedwhiskerscafe.vercel.app/">
                     <img src={CatCafe} height='275px' width='425px' alt='Frosted Whiskers Cat Cafe' />
                 </a>
             </div>
