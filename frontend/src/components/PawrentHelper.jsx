@@ -18,7 +18,7 @@ const PawrentHelper = () => {
             <div className='description'>
                 <ul> 
                 Languages: Python, JavaScript, HTML, CSS <br></br>
-                Technologies: JWT, RESTful APIs, React,js, Node, React-Router, Axios, MySQL, Django, DjangoRestFramework, FullCalender.io</ul>
+                Technologies: JWT, RESTful APIs, React.js, Node, React-Router, Axios, MySQL, Django, DjangoRestFramework, FullCalender.io</ul>
             </div>
         </div>
      );
