@@ -3,6 +3,7 @@ import './HomePage.css';
 import PortfolioImage from "../../assets/PortfolioImage.jpg";
 import Git from '../../assets/github.png'
 import Linked from '../../assets/Linkedin.png'
+import Certficates from "../../components/Certificates";
 
 const HomePage = () => {
 
@@ -33,6 +34,9 @@ const HomePage = () => {
                             </a>
                         </ul>
                     </div>
+                </div>
+                <div className="aboutme-container">
+                    <Certficates />
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@ const Journey = () => {
   return (
     <div>
       <div className="aboutme-container">
-        <h1 className="journey-header">My Journey</h1>
+        <h1 className="journey-header">About Me</h1>
         <br></br>
       </div>
       <div className="quote">
@@ -18,7 +18,7 @@ const Journey = () => {
         <p>Stephen Hawking</p>
       </div>
       <div className="aboutme-container">
-        <ul>
+        {/* <ul>
           I come from a medically heavy background. From working with clients as
           a Customer Service Representative to working with animals as a
           Licensed Veterinary Technician, my work experience up to this point
@@ -56,7 +56,7 @@ const Journey = () => {
           forward to strengthening my skills, developing new ones, and gaining
           experience in the years to come.
         </ul>
-        <br></br>
+        <br></br> */}
         <h3 className="journey-header">
           What can I bring to software developement?
         </h3>

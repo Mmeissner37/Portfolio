@@ -15,9 +15,9 @@ const Navbar = () => {
     <div className="navBar">
         <div className="buttons">
             <button onClick={() => navigate("/")}>Home</button>
-            <button onClick={() => navigate('/myjourney')}>My Journey</button>
+            <button onClick={() => navigate('/myjourney')}>About</button>
             <button onClick={() => navigate('/projects')}>Projects</button>
-            {/* <button onClick={() => navigate('/contact')}>Contact Me</button> */}
+            <button onClick={() => navigate('/contact')}>Contact</button>
         </div>
     </div>
   );

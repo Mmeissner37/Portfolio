@@ -1,5 +1,6 @@
 .contact-page {
-    background-image: radial-gradient(white, rgb(45, 124, 157));
+    /* background-image: radial-gradient(white, rgb(45, 124, 157)); */
+    background-image: url("../../assets/5651980a.jpg");
     align-items: center;
     padding-bottom: 4px;
     padding-top: 4px;

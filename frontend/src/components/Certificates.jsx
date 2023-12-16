@@ -7,7 +7,6 @@ const Certficates = () => {
     <div>
       <div className="journey-header">
         <h2>Current Certificates</h2>
-        <br></br>
       </div>
       <div className="certificates">
         <div className="image-link">

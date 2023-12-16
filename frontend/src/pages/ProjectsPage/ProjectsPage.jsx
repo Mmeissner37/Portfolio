@@ -15,14 +15,16 @@ const ProjectsPage = () => {
         <div className="header">
           <h1>My Projects</h1>
         </div>
+        <div className="grid-container">
+        <div className="grid-item">
+            <FrostedWhiskers />
+          </div>
+        </div>
         <p className="header">
           The projects below were completed during my education with
           devCodeCamp. More will be added as I gain skill and experience.{" "}
         </p>
         <div className="grid-container">
-        <div className="grid-item">
-            <FrostedWhiskers />
-          </div>
           <div className="grid-item">
             <PawrentHelper />
           </div>

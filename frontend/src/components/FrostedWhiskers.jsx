@@ -12,13 +12,12 @@ const FrostedWhiskers = () => {
             <h3 className='proj-header'>Frosted Whiskers Cat Cafe</h3>
             <div className='description'>
                 <ul>
-                    A custom made website displaying a local cat cafe for Winchester, VA.
+                    A custom-made website displaying a local cat cafe for Winchester, VA.
                 </ul>
             </div>
             <div className='description'>
-                <ul>
                 Languages: JavaScript, CSS <br />
-                Technologies: Axios, Node.js, React.js, Vercel </ul>
+                Technologies: Axios, Node.js, React.js, Vercel
             </div>
         </div>
      );
