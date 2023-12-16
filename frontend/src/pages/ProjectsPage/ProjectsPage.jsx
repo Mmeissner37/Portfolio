@@ -6,11 +6,15 @@ import YouTubeClone from "../../components/YouTubeClone";
 import RPSLS from "../../components/RPSLS";
 import RobotvsDinosaur from "../../components/RobotvsDinosaur";
 import FrostedWhiskers from "../../components/FrostedWhiskers";
+import Snowflakes from "../../components/Snowflakes";
 
 
 const ProjectsPage = () => {
   return (
     <div className="projects-page">
+      <div>
+        <Snowflakes />
+      </div>
       <div className="container">
         <div className="header">
           <h1>My Projects</h1>

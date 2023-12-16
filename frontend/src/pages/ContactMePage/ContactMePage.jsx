@@ -1,3 +1,4 @@
+import Snowflakes from '../../components/Snowflakes';
 import useCustomForm from '../../hooks/useCustomForm';
 import './ContactMePage.css'
 import axios from 'axios';
@@ -34,16 +35,17 @@ const ContactMePage = () => {
     return ( 
         <div className='contact-page'>
             <div className="contactcontainer">
+                <Snowflakes />
                 <h1 className='contact-header'>Contact Me</h1><br></br>
                 <form className="form" onSubmit={handleSubmit}>
                     <label>Name: {' '}
                         <input type='text' name='name' placeholder='First & Last Name' value={formData.name} onChange={handleInputChange} /><br></br>
                     </label>
                     <label>Company (optional): {' '}
-                        <input type='text' name='company' placeholder ='N/A or Company Name' value={formData.company} onChange={handleInputChange} /><br></br>
+                        <input type='text' name='company' placeholder ='Company Name or N/A' value={formData.company} onChange={handleInputChange} /><br></br>
                     </label>
                     <label>Email Address: {' '}
-                        <input type='text' name='email' value={formData.email} onChange={handleInputChange}/><br></br>
+                        <input type='text' name='email' placeholder= '@gmail.com' value={formData.email} onChange={handleInputChange}/><br></br>
                     </label>
                     <label>Message: {' '} 
                         <textarea className='message' type='message' name='message' placeholder='Please leave feedback or contact message here...' value={formData.message} onChange={handleInputChange}/>

@@ -2,6 +2,10 @@
 
 const AboutMeGrid = () => {
     return ( 
+        <div>
+            <h1 className="journey-header">
+                What I Will Bring To Software Developement
+            </h1>
         <div className="aboutme-grid">
             <div className="grid-item">
                 <ul>Detail Oriented</ul>
@@ -28,8 +32,9 @@ const AboutMeGrid = () => {
                 <ul>Verbal Communication</ul>
             </div>
             <div className="grid-item">
-                <ul>Efficiency</ul>
+                <ul>Continuous Learning Mindset</ul>
             </div>
+        </div>
         </div>
      );
 }

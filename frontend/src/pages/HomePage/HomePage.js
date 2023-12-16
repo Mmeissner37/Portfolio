@@ -4,11 +4,16 @@ import PortfolioImage from "../../assets/PortfolioImage.jpg";
 import Git from '../../assets/github.png'
 import Linked from '../../assets/Linkedin.png'
 import Certficates from "../../components/Certificates";
+import AboutMeGrid from "../../components/AboutMeGrid";
+import Snowflakes from "../../components/Snowflakes";
 
 const HomePage = () => {
 
     return (
         <div className="home-page">
+            <div>
+                <Snowflakes />
+            </div>
             <div className="container">
                 <div className="header-home">
                     <h1 className="intro">Michaela P. Meissner</h1>
@@ -35,14 +40,13 @@ const HomePage = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="aboutme-container">
+                <div className="cert-container">
                     <Certficates />
                 </div>
             </div>
-            <div className="quote">
-                <p><i> However difficult life may seem, there is always something you can do, and succeed at.</i></p>
-                <p><i>It matters that you don't just give up.</i></p>
-                <p>~ Stephen Hawking</p>
+            <hr />
+            <div>
+                <AboutMeGrid />
             </div>
         </div>
     );

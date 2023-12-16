@@ -45,9 +45,7 @@ const Journey = () => {
           experience in the years to come.
         </ul>
         <br></br> */}
-        <h3 className="journey-header">
-          What can I bring to software developement?
-        </h3>
+
         <br></br>
       </div>
     </div>
