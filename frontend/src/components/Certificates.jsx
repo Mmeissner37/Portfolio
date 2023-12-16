@@ -9,16 +9,16 @@ const Certficates = () => {
         <h2>Current Certificates</h2>
       </div>
       <div className="certificates">
-        <div className="image-link">
-          <img src={DCC} height="200" width="275" alt="Full Stack Developer Certficate" />
+        <div>
+          <img src={DCC} className="thumbnail" height="200" width="275" alt="Full Stack Developer Certficate" />
         </div>
-        <div className="image-link">
-          <img src={FCC} height="200" width="275" alt="Responsive Web Design Certficiate" />
+        <div>
+          <img src={FCC} className="thumbnail" height="200" width="275" alt="Responsive Web Design Certficiate" />
         </div>
-        <div className="image-link">
-          <img src={UIUX} height="200" width="275" alt="UI UX Design Certificiate" />
+        <div>
+          <img src={UIUX} className="thumbnail" height="200" width="275" alt="UI UX Design Certificiate" />
         </div>
-        </div>
+        </div><br></br>
     </div>
   );
 };

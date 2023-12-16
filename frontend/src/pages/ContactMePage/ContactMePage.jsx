@@ -15,7 +15,7 @@ const ContactMePage = () => {
     const navigate = useNavigate();
 
     async function newContact() {
-        debugger
+        // debugger
         try {
             let response = await axios.post('44.202.128.85:8000/portfolio/contact/', formData, {})
             navigate('/')

@@ -39,6 +39,11 @@ const HomePage = () => {
                     <Certficates />
                 </div>
             </div>
+            <div className="quote">
+                <p><i> However difficult life may seem, there is always something you can do, and succeed at.</i></p>
+                <p><i>It matters that you don't just give up.</i></p>
+                <p>~ Stephen Hawking</p>
+            </div>
         </div>
     );
 };
