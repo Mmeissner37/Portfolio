@@ -22,8 +22,10 @@
 .grid-container {
     display: grid;
     display: inline-grid;
+    flex-wrap: wrap;
     grid-template-columns: auto auto;
     gap: 4rem 3rem;
+    overscroll-behavior: scroll;
 }
 
 .description {
