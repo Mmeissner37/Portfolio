@@ -11,7 +11,11 @@ const HomePage = () => {
             <div className="container">
                 <div className="header-home">
                     <h1 className="intro">Michaela P. Meissner</h1>
-                    <h2>Software Developer</h2><br></br>
+                    <div id="scroll-container">
+                        <div id="scroll-text">
+                            <h2>Software Developer</h2>
+                        </div>
+                    </div>
                     <img className="profile-image" src= {PortfolioImage} height='400px' width='280px' alt='Profile' />
                 </div>
                 <div className="icons">

@@ -41,8 +41,8 @@ const Journey = () => {
           <br></br>I started my software journey mid-2022 utilizing mostly
           self-taught methods. YouTube videos, W3 Schools and good old-fashioned
           books. I was hooked from my first print(“Hello World”) in PyCharm.
-          freeCodeCamp tutorials offered a great start to reactive web
-          development, but I wanted a more in-depth approach. So, I enrolled
+          freeCodeCamp tutorials offered a great start to responsive web
+          design, but I wanted a more in-depth approach. So, I enrolled
           with devCodeCamp and started their Software Development Flex Bootcamp.
           The 22-week bootcamp offered a guideline on what to learn while
           requiring the ability to self-study, trouble-shoot and problem-solve on my own. Most
