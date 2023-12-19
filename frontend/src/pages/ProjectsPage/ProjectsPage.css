@@ -1,6 +1,8 @@
 .projects-page {
-    background-image: radial-gradient(white, rgb(45, 124, 157));
-    background-repeat: no-repeat;
+    background-size: 100%;
+    background: radial-gradient(white, rgb(45, 124, 157));
+    background-repeat: repeat;
+    position: relative;
     padding-bottom: 2rem;
     font-family: "Poppins";
 }
@@ -22,8 +24,11 @@
 .grid-container {
     display: grid;
     display: inline-grid;
-    grid-template-columns: auto auto;
+    flex-wrap: wrap;
+    grid-template-columns: auto;
     gap: 4rem 3rem;
+    overscroll-behavior: scroll;
+    justify-content: center;
 }
 
 .description {
@@ -34,6 +39,8 @@
     text-align: left;
     font-size: smaller;
     margin-bottom: 0.25rem;
+    max-width: 65%;
+    margin: auto;
 }
 
 .container-description {

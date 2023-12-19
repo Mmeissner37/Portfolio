@@ -11,9 +11,7 @@ const FrostedWhiskers = () => {
             </div>
             <h3 className='proj-header'>Frosted Whiskers Cat Cafe</h3>
             <div className='description'>
-                <ul>
-                    A custom-made website displaying a local cat cafe for Winchester, VA.
-                </ul>
+                A custom-made website displaying a local cat cafe for Winchester, VA.
             </div>
             <div className='description'>
                 Languages: JavaScript, CSS <br />
