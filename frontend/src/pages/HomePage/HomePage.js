@@ -40,13 +40,10 @@ const HomePage = () => {
                         </ul>
                     </div>
                 </div>
+                <hr />
                 <div className="cert-container">
                     <Certficates />
                 </div>
-            </div>
-            <hr />
-            <div>
-                {/* <AboutMeGrid /> */}
             </div>
         </div>
     );

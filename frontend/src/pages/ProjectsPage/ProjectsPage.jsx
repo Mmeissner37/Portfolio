@@ -7,7 +7,7 @@ import RPSLS from "../../components/RPSLS";
 import RobotvsDinosaur from "../../components/RobotvsDinosaur";
 import FrostedWhiskers from "../../components/FrostedWhiskers";
 import Snowflakes from "../../components/Snowflakes";
-
+import AboutMeGrid from "../../components/AboutMeGrid";
 
 const ProjectsPage = () => {
   return (
@@ -19,6 +19,10 @@ const ProjectsPage = () => {
         <div className="header">
           <h1>My Projects</h1>
         </div>
+        <div>
+          <AboutMeGrid />
+        </div>
+        <hr />
         <div className="grid-container">
           <div className="grid-item">
               <FrostedWhiskers />

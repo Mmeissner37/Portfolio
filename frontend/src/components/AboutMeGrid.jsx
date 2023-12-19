@@ -1,4 +1,4 @@
-
+import Qualities from "./Qualities";
 
 
 const AboutMeGrid = () => {
@@ -7,7 +7,7 @@ const AboutMeGrid = () => {
             <h1 className="journey-header">
                 I am: </h1>
                 <div className="typewriter">
-                    <h2>very detail oriented, hard core at multi-tasking, great with time management, constantly learning, and determined to kick-butt and take names!</h2>
+                    <Qualities />
                 </div>
         </div>
      );
