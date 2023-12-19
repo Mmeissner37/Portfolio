@@ -46,7 +46,7 @@ const HomePage = () => {
             </div>
             <hr />
             <div>
-                <AboutMeGrid />
+                {/* <AboutMeGrid /> */}
             </div>
         </div>
     );
