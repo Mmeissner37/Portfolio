@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 const Typewriter = ({ texts, speed }) => {
-  const [displayedText, setDisplayedText] = useState('');
+  const [displayedText, setDisplayedText] = useState("");
   const [currentLine, setCurrentLine] = useState(0);
   const [showCursor, setShowCursor] = useState(true);
 
@@ -36,15 +36,21 @@ const Typewriter = ({ texts, speed }) => {
     <div>
       <div>
         {displayedText}
-        {showCursor && <span>|</span>}
+        {/*{showCursor && <span>|</span>*/}
       </div>
     </div>
   );
 };
 
 const Qualities = () => {
-  const texts = ["constantly learning,", " detail oriented,", " an expert at multi-tasking,", " and determined to succeed!"];
-  const speed = 150; // Adjust the speed as needed
+  const texts = [
+    "constantly growing,",
+    " detail-oriented,",
+    " an expert at multi-tasking,",
+    " and determined to succeed.",
+    " I am a Software Developer!",
+  ];
+  const speed = 100; // Adjust the speed as needed
 
   return (
     <div>
